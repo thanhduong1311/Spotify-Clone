@@ -52,7 +52,7 @@ font-weight: bold;
 .login-page-body {
     width: 100%;
     height: 860px;
-    background-color: #2941AB;
+    background-color: var(--blue-color);
     display: flex; 
     flex-direction: column;
     justify-content: center;
@@ -92,6 +92,60 @@ font-weight: bold;
 }
 
 .login-page-footer {
-    min-height: 400px;
+    min-height: 250px;
     background-color: black;
+    color: var(--white-color);
+    padding-top: 70px;
+}
+
+.login-page-footer__grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    color: #999;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.login-page-footer__grid-item {
+    margin-top: 12px;
+    font-size: 16px;
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.login-page-footer__grid-item:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-page-footer__copy-right {
+    width: 100%;
+    text-align: center;
+    color: #999;
+    margin-top: 60px;
+}
+
+.login-page-footer__grid-social {
+    display: flex;
+
+}
+
+.login-page-footer__grid-social-item a {
+   display: block;
+   width: 50px;
+   height: 50px;
+   background-color: #222326;
+   margin-right: 10px;
+   text-align: center;
+   line-height: 50px;
+   font-size: 28px;
+   border-radius: 50%;
+   text-decoration: none;
+   color: var(--white-color);
 }
