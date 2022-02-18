@@ -38,7 +38,10 @@ export default function LoginPage() {
 
      <div className="login-page-footer">
          <div className="login-page-footer__grid">
-           <div className="login-page-footer__grid col col-2">LOGO</div>
+           <div className="login-page-footer__grid col col-2">
+           <img class="logoTanD" src="../LogoT&D.png" alt="" />
+
+           </div>
            <div className="login-page-footer__grid col col-2">CÔNG TY
            <div className="login-page-footer__grid-item">
              Giới Thiệu
