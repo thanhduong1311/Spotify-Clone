@@ -11,7 +11,7 @@ export default function LoginPage() {
       <div className="login-page-header">
            <div className="login-page-header__nav-bar">
            <div className="login-page-header__nav-bar-logo">
-             <img src="" alt="" />
+             <img className='logoTanD' src="../LogoT&D.png" alt="" />
            </div>
            <div className="login-page-header__nav-bar-list">
               <div className="login-page-header__nav-bar-list-item">Premium</div>
@@ -25,10 +25,10 @@ export default function LoginPage() {
 
       <div className="login-page-body">
       <div className="login-page-body__description">
-        Nghe đa chiều, sống đa sắc
+       Chúng tôi ở đây đem đến nỗi buồn cho bạn
       </div>
       <div className="login-page-body__sub-description">
-      Hàng triệu bài hát và podcast. Không cần thẻ tín dụng.
+      DEV còn FA nên không chỉ có nhạc thất tình
       </div>
       <div className="login-page-body__btn">
         Tải T & D miễn phí
@@ -83,6 +83,7 @@ export default function LoginPage() {
            Power By T&d
          </div>
      </div>
+
     </div>
   )
 }
