@@ -20,8 +20,17 @@
 
 .login-page-header__nav-bar-logo {
     color: var(--white-color);
+   
 
 }
+
+.logoTanD {
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+}
+    
+
 
 .login-page-header__nav-bar-list {
 display: flex;
@@ -149,3 +158,4 @@ font-weight: bold;
    text-decoration: none;
    color: var(--white-color);
 }
+

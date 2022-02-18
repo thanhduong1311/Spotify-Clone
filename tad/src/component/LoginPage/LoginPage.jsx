@@ -11,7 +11,7 @@ export default function LoginPage() {
       <div className="login-page-header">
            <div className="login-page-header__nav-bar">
            <div className="login-page-header__nav-bar-logo">
-             <img src="" alt="" />
+             <img class="logoTanD" src="../LogoT&D.png" alt="" />
            </div>
            <div className="login-page-header__nav-bar-list">
               <div className="login-page-header__nav-bar-list-item">Premium</div>
