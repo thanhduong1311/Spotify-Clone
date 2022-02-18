@@ -1,4 +1,5 @@
 import LoginPage from "./component/LoginPage/LoginPage";
+import RegisterPage from "./component/RegisterPage/RegisterPage";
 import { Route , Routes , BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -6,10 +7,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/login" element={<LoginPage/>}>
-
+        </Route>
+        <Route path="/" element={<RegisterPage/>}>
         </Route>
       </Routes>
     </BrowserRouter>
+   
   );
 }
 
