@@ -1,5 +1,5 @@
 :root {
-    --primary-color : #1ed760;
+    --primary-color : #fdc04d;
     --white-color: #fff;
     --blue-color: #2941AB
 }
@@ -21,6 +21,9 @@
 .login-page-header__nav-bar-logo {
     color: var(--white-color);
    
+    height: 50px;
+    margin: auto 0;
+    
 
 }
 

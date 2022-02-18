@@ -4,6 +4,7 @@ import "./assets/loginpage.css"
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function LoginPage() {
   return (
@@ -25,10 +26,10 @@ export default function LoginPage() {
 
       <div className="login-page-body">
       <div className="login-page-body__description">
-        Nghe đa chiều, sống đa sắc
+       Chúng tôi ở đây đem đến nỗi buồn cho bạn
       </div>
       <div className="login-page-body__sub-description">
-      Hàng triệu bài hát và podcast. Không cần thẻ tín dụng.
+      DEV còn FA nên không chỉ có nhạc thất tình
       </div>
       <div className="login-page-body__btn">
         Tải T & D miễn phí
@@ -69,11 +70,13 @@ export default function LoginPage() {
            <div className="login-page-footer__grid-social">
 
              <div className="login-page-footer__grid-social-item">
-               <a href=""><InstagramIcon style={{ fontSize:28}}></InstagramIcon></a></div>
+               <a href="https://www.facebook.com/profile.php?id=100007250326127"><FacebookIcon style={{ fontSize:28}}></FacebookIcon></a></div>
              <div className="login-page-footer__grid-social-item">
-               <a href=""><FacebookIcon style={{ fontSize:28}}></FacebookIcon></a></div>
+               <a href="https://github.com/BTWToanDev"><GitHubIcon style={{ fontSize:28}}></GitHubIcon></a></div>
+               <div className="login-page-footer__grid-social-item">
+               <a href="https://www.linkedin.com/in/th%C3%A0nh-d%C6%B0%C6%A1ng-nguy%E1%BB%85n-608171229/"><LinkedInIcon style={{ fontSize:28}}></LinkedInIcon></a></div>
              <div className="login-page-footer__grid-social-item">
-               <a href=""><GitHubIcon style={{ fontSize:28}}></GitHubIcon></a></div>
+               <a href="https://www.instagram.com/thanh_duong1311/"><InstagramIcon style={{ fontSize:28}}></InstagramIcon></a></div>
            </div>
            </div>
 
@@ -83,6 +86,7 @@ export default function LoginPage() {
            Power By T&d
          </div>
      </div>
+
     </div>
   )
 }
