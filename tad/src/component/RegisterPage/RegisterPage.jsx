@@ -3,6 +3,6 @@ import "./assets/registerpage.css"
 
 export default function RegisterPage() {
   return (
-    <div>RegisterPageToan</div>
+    <div>RegisterPageToanThanh</div>
   )
 }
