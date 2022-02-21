@@ -3,6 +3,9 @@ import "./assets/registerpage.css"
 
 export default function RegisterPage() {
   return (
-    <div>RegisterPageToanThanh</div>
+    <div className="RegisterPage">
+      
+    </div>
+    
   )
 }
