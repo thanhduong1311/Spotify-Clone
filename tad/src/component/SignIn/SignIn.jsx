@@ -9,7 +9,8 @@ import Checkbox from '@mui/material/Checkbox';
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 
-const logolink = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj5AvPJ_t72_pkXu7lGnKo0Qva4z9UHpTVYQ&usqp=CAU" 
+const logogg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj5AvPJ_t72_pkXu7lGnKo0Qva4z9UHpTVYQ&usqp=CAU" 
+const logoph = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxZNy6zYaV13uWKvLA7d3olQHroj5ktxuUCw&usqp=CAU"
 
 export default function SignIn() {
   return (
@@ -32,9 +33,10 @@ export default function SignIn() {
                  <span> Tiếp tục với apple </span>
             </button>
             <button className="SignIn-body__btn SignIn-body__btn--google">
-            <Avatar sx={{width: 20,height : 20}} src={logolink} />
+            <Avatar sx={{width: 20,height : 20}} src={logogg} />
                  <span> Tiếp tục bằng google </span>
             </button>
+           
             <button className="SignIn-body__btn SignIn-body__btn--phone-number">
                  <span> Tiếp tục với số điện thoại </span>
             </button>

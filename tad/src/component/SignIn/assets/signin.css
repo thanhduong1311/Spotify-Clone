@@ -66,6 +66,12 @@
     font-weight: 700;
 }
 
+.SignIn-body__btn:hover {
+    border: 1px solid #000;
+    cursor: pointer;
+
+}
+
 .SignIn-body__btn span {
     margin: 0 0 0 5px;
 }
