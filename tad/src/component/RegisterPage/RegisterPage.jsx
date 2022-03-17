@@ -3,6 +3,7 @@ import "./assets/registerpage.css"
 
 export default function RegisterPage() {
   return (
-   <div className="RegisterPage"></div>
+   <div className="RegisterPage">
+     trang đăng kí</div>
   )
 }

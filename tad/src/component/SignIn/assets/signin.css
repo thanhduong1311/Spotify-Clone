@@ -67,7 +67,7 @@
 }
 
 .SignIn-body__btn:hover {
-    border: 1px solid #000;
+    border: 1px solid var(--primary-color);
     cursor: pointer;
 
 }

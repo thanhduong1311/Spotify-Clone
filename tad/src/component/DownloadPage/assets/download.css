@@ -1,0 +1,146 @@
+:root {
+    --primary-color : #fdc04d;
+    --white-color: #fff;
+    --blue-color: #2941AB
+  }
+
+.download-page-header {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 40px 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+}
+.download-page-header__img {
+    position: relative;
+    height: 80px;
+    width: 136px;
+    margin-bottom: 40px;
+}
+.computer-img {
+    position: relative;
+    height: 80px;
+    width: 136px;
+}
+.crile-img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+    width: 34px;
+    height: 34px;
+}
+.stick-img {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(280%);
+    z-index: 1;
+}
+
+.download-page-header__title {
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+.download-page-header__description {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 38px;
+}
+
+.download-page-header__download-btn {
+    padding: 14px 32px;
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    font-weight: 600;
+    border-radius: 32px;
+}
+.download-page-body {
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ; 
+}
+
+.download-page-body__title {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+.download-page-body__description {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 38px;
+}
+
+.download-page-body__download-option {
+   display: flex;
+}
+
+.download-with-google-play ,
+.download-with-app-store ,
+.download-with-microsoft-store {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+
+.download-with-google-play img ,
+.download-with-app-store img ,
+.download-with-microsoft-store img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.download-with-google-play a,
+.download-with-app-store a,
+.download-with-microsoft-store a{
+   
+    margin-right: 10px;
+    text-decoration: none;
+
+}
+
+.download-page-footer {
+    padding: 50px 0;
+    background-color: rgb(34, 35, 38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ; 
+}
+
+.download-page-footer__img {
+    width: 480px;
+}
+
+.download-page-footer__title {
+    color: var(--white-color);
+    margin-top: 15px;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.download-page-footer__option {
+    display: flex;
+}
+
+.download-page-footer__option li{
+margin-left: 30px;
+font-size: 16px;
+color: var(--primary-color);
+}
+
+.download-page-footer__option li:first-child{
+    list-style-type: none;
+}
+.download-page-footer__option li:hover{
+cursor: pointer;
+}
