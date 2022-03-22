@@ -98,13 +98,14 @@
     color: #666;
 } 
 
-.RegisterPage-body__btn--not-account {
+.RegisterPage-body__btn-register{
     background-color: transparent;
     color: var(--white-color);
-    border: 1px solid #999;
+    padding: 10px 20px;
     background-color: var(--primary-color);
     font-weight: 600;
     font-size: 17px;
+    min-width: unset !important;
 } 
 
 
