@@ -5,6 +5,7 @@ import { Route , Routes , BrowserRouter } from "react-router-dom";
 import Download from "./component/DownloadPage/Download";
 import Premium from "./component/PremiumPage/Premium";
 import Support from "./component/SupportPage/Support";
+import RegisterWithFacebook from "./component/RegisterWithFacebook/RegisterWithFacebook";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/download" element={<Download/>}></Route>
         <Route path="/premium" element={<Premium/>}></Route>
         <Route path="/support" element={<Support/>}></Route>
+        <Route path="/registerpage/RF" element={<RegisterWithFacebook/>}></Route>
       </Routes>
     </BrowserRouter>
    
