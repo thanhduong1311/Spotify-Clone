@@ -1,0 +1,136 @@
+:root {
+    --primary-color : #fdc04d;
+    --white-color: #fff;
+    --blue-color: #2941AB
+}
+
+.RegisterPage-header {
+    height: 115px;
+    width: 100%;
+    border-bottom: 1px solid #333;
+}
+
+.RegisterPage-header__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.RegisterPage-header__logo img {
+    width: 75px;
+}
+
+.RegisterPage-header__logo .brand {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--primary-color);
+    text-shadow: 0 0 2px #999;
+}
+
+.RegisterPage-body {
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.RegisterPage-body__message {
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.RegisterPage-body__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 450px;
+    height: 48px;
+    border-radius: 24px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.RegisterPage-body__btn:hover {
+    border: 2px solid #000;
+    cursor: pointer;
+    
+
+}
+
+.RegisterPage-body__btn span {
+    margin: 0 0 0 5px;
+}
+
+.RegisterPage-body__btn--facebook {
+ background-color: #3c5995;
+ color: #fff;
+}
+
+.RegisterPage-body__btn--apple {
+    background-color: #000;
+    color: #fff;
+} 
+
+   .RegisterPage-body__btn--google {
+    background-color: transparent;
+    border: 1px solid #999;
+    color: #666;
+} 
+.RegisterPage-body__btn--phone-number {
+    background-color: transparent;
+    border: 1px solid #999;
+    color: #666;
+} 
+
+.RegisterPage-body__btn--not-account {
+    background-color: transparent;
+    color: var(--white-color);
+    border: 1px solid #999;
+    background-color: var(--primary-color);
+    font-weight: 600;
+    font-size: 17px;
+} 
+
+
+.RegisterPage-body__message .line {
+    display: block;
+    width: 200px;
+    height:1px;
+    border-top: 1px solid #999;
+    margin: 0 5px;
+}
+
+.RegisterPage-body__message-forgot-password {
+    width: 100%;
+    font-size: small;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.RegisterPage-body__remember-and-login-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+}
+
+.line-full-width {
+    width: 100%;
+    border: 1px solid #999;
+}
