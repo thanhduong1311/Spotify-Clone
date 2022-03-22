@@ -2,17 +2,23 @@ import LoginPage from "./component/LoginPage/LoginPage";
 import RegisterPage from "./component/RegisterPage/RegisterPage";
 import SignIn from "./component/SignIn/SignIn";
 import { Route , Routes , BrowserRouter } from "react-router-dom";
+import Download from "./component/DownloadPage/Download";
+import Premium from "./component/PremiumPage/Premium";
+import Support from "./component/SupportPage/Support";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/login" element={<LoginPage/>}>
+        <Route path="/" element={<LoginPage/>}>
         </Route>
-        <Route path="/" element={<RegisterPage/>}>
+        <Route path="/registerpage" element={<RegisterPage/>}>
         </Route>
         <Route path="/signin" element={<SignIn/>}>
         </Route>
+        <Route path="/download" element={<Download/>}></Route>
+        <Route path="/premium" element={<Premium/>}></Route>
+        <Route path="/support" element={<Support/>}></Route>
       </Routes>
     </BrowserRouter>
    

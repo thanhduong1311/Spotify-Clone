@@ -1,8 +1,3 @@
-:root {
-    --primary-color : #fdc04d;
-    --white-color: #fff;
-    --blue-color: #2941AB
-}
 
 .login-page-header {
     width: 100%;
@@ -46,7 +41,12 @@ font-weight: bold;
   position: relative;
 }
 
-.login-page-header__nav-bar-list-item:hover {
+.login-page-header__nav-bar-list-item a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.login-page-header__nav-bar-list-item a:hover {
     cursor: pointer;
     color: var(--primary-color) ;
 }
@@ -160,5 +160,10 @@ font-weight: bold;
    border-radius: 50%;
    text-decoration: none;
    color: var(--white-color);
+   margin: 0 10px;
+   border: 1px solid #000;
 }
 
+.login-page-footer__grid-social-item a:hover {
+    border: 1px solid var(--primary-color);
+}
